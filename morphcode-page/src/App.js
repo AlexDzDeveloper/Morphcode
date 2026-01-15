@@ -1,11 +1,10 @@
-function App() {
+import Header from './components/header/Header';
 
-	const project = 'fashion';
+function App() {
 
   return (
     <div className="App">
-		<h1>hello React)</h1>
-		<div>{project}</div>
+		<Header/>
     </div>
   );
 }
