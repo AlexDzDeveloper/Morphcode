@@ -1,0 +1,38 @@
+.promo__row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.promo__text {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 20px;
+	max-width: 520px;
+}
+
+.promo__header {
+	font-family: var(--secondFamily);
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 121%;
+	letter-spacing: 0.01em;
+	color: var(--headerColor);
+
+}
+
+.promo__descr {
+	font-family: var(--fontFamily);
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 167%;
+	color: var(--textColor);
+}
+
+.promo__img {
+	max-width: 600px;
+}

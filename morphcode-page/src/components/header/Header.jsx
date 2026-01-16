@@ -9,15 +9,15 @@ function Header() {
 					<div className="header__logo">
 						<img src={logo} alt="Logo" />
 					</div>
-					<div className="header__nav">
+					<nav className="header__nav">
 						<ul>
-							<li>Academy</li>
-							<li>Blog</li>
-							<li>Work</li>
-							<li>Contact</li>
-							<li>About</li>
+							<li><a href="#!">Academy</a></li>
+							<li><a href="#!">Blog</a></li>
+							<li><a href="#!">Work</a></li>
+							<li><a href="#!">Contact</a></li>
+							<li><a href="#!">About</a></li>
 						</ul>
-					</div>
+					</nav>
 				</div>
 			</div>
 		</header>
