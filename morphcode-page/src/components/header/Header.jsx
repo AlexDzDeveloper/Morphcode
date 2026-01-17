@@ -3,7 +3,7 @@ import logo from './../../img/main/logo.svg';
 
 function Header() {
 	return(
-		<header className='header'>
+		<header>
 			<div className="container">
 				<div className="header__row">
 					<div className="header__logo">

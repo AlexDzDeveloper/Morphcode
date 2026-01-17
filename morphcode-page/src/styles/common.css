@@ -18,3 +18,22 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0 auto;
 	padding: 0 30px;
 }
+
+.header {
+	font-family: var(--secondFamily);
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 121%;
+	letter-spacing: 0.01em;
+	color: #4a4a4a;
+}
+
+.header__big {
+	font-weight: 700;
+	font-size: 48px;
+}
+
+.header__smoll {
+	font-size: 24px;
+	line-height: 130%;
+}
