@@ -1,0 +1,26 @@
+.article {
+	max-width: 330px;
+}
+
+.article__text {
+	position: relative;
+	top: -50px;
+	left: 50%;
+	transform: translateX(-50%);
+	max-width: 280px;
+	background-color: #fff;
+	padding: 17px 20px;
+}
+
+.divider {
+	margin-top: 4px;
+}
+
+.article__descr {
+	font-family: var(--fontFamily);
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 171%;
+	color: var(--textColor);
+	margin-top: 10px;
+}
