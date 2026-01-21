@@ -1,0 +1,45 @@
+.subscribe {
+	height: 282px;
+	background-color: #eee;
+	padding: 80px 195px;
+}
+
+.subscribe__row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: start;
+}
+
+.subscribe__text {
+	max-width: 463px;
+}
+
+.subscribe__descr {
+	font-family: var(--fontFamily);
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 167%;
+	color: var(--textColor);
+	margin-top: 18px;
+}
+
+input {
+	border: 2px solid #979797;
+	border-radius: 4px 0 0 4px;
+	width: 299px;
+	height: 42px;
+	color: #979797;
+	background-color: #fff;
+	padding: 4px 7px;
+	opacity: 0.6;
+}
+
+button {
+	border: 1px solid rgba(0, 0, 0, 0.05);
+	border-radius: 0 4px 4px 0;
+	width: 121px;
+	height: 42px;
+	color: #fff;
+	background-color: #1d6ff3;
+}

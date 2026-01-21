@@ -3,6 +3,7 @@ import Promo from './components/promo/Promo';
 import Portfolio from './components/portfolio/Portfolio';
 import Learn from './components/learn/Learn';
 import Blog from './components/blog/Blog';
+import Subscribe from './components/subscribe/Subscribe';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
 		<Portfolio/>
 		<Learn/>
 		<Blog/>
+		<Subscribe/>
     </div>
   );
 }
