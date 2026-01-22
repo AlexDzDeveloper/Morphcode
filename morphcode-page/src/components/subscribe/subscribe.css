@@ -1,7 +1,12 @@
 .subscribe {
 	height: 282px;
 	background-color: #eee;
-	padding: 80px 195px;
+	padding: 80px 210px 80px 165px;
+}
+
+.subscribe .container {
+	max-width: 1080px;
+	margin: 0;
 }
 
 .subscribe__row {
@@ -26,6 +31,7 @@
 
 input {
 	border: 2px solid #979797;
+	border-right: 0px;
 	border-radius: 4px 0 0 4px;
 	width: 299px;
 	height: 42px;
